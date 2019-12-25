@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="texture" src="texture.png">
+      </a-assets>
+
+      <!-- Basic box. -->
+      <a-box color="tomato" depth="2" height="4" width="0.5"></a-box>
+
+      <!-- Textured box. -->
+      <a-box src="#texture"></a-box>    </a-scene>
+  </body>
+</html>
