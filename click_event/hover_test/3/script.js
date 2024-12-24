@@ -5,19 +5,19 @@ $(function() {
     el_eventname.append(eventname);
   };
 
-  $(document).on('touchstart', '#hov_elm', function () {
+  $(document).on('touchstart', 'div', function () {
     updateEventname('<p>touchstart</p>')
   });
-  $(document).on('touchend', '#hov_elm', function () {
+  $(document).on('touchend', 'div', function () {
     updateEventname('<p>touchend</p>')
   });
-  $(document).on('mousedown', '#hov_elm', function () {
+  $(document).on('mousedown', 'div', function () {
     updateEventname('<p>mousedown</p>')
   });
-  $(document).on('mouseup', '#hov_elm', function () {
+  $(document).on('mouseup', 'div', function () {
     updateEventname('<p>mouseup</p>')
   });
-  $(document).on('click', '#hov_elm', function () {
+  $(document).on('click', 'div', function () {
     updateEventname('<p>click</p>')
   });
 });
