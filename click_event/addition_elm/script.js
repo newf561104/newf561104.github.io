@@ -4,4 +4,8 @@ $(function() {
   $('#add_btn').on('click', function () {
     container.append('<div class="hov_elm">:hover sample</div>')
   });
+
+  container.on('click', function () {
+    //
+  });
 });
