@@ -4,7 +4,7 @@ let el_eventname = document.getElementById('event_name');
 
 // 表示をアップデートする関数群
 let updateEventname = function(eventname) {
-  el_eventname.innerHTML = `${el_eventname.innerHTML} ${eventname}`;
+  el_eventname.innerHTML = `${el_eventname.innerHTML}<p>${eventname}</p>`;
 };
 
 // イベント設定
