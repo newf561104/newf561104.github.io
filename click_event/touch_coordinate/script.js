@@ -8,7 +8,7 @@ let updateEventname = function(eventname) {
 };
 
 let updateTouchEvent = function(eventname, event) {
-  innerHTML = `${el_eventname.innerHTML}<p>${eventname}: ${event.changedTouches[0].pageX}, ${event.changedTouches[0].pageY} </p>`;
+  el_eventname.innerHTML = `${el_eventname.innerHTML}<p>${eventname}: ${event.changedTouches[0].pageX}, ${event.changedTouches[0].pageY} </p>`;
 }
 
 // イベント設定
