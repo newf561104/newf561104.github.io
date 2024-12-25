@@ -17,12 +17,12 @@ $(function() {
   $(document).on('mouseup', '#hov_elm', function () {
     updateEventname('<p>mouseup</p>')
   });
-  $(document).on('pointerdown', '#hov_elm', function () {
-    updateEventname('<p>pointerdown</p>')
-  });
-  $(document).on('pointerup', '#hov_elm', function () {
-    updateEventname('<p>pointerup</p>')
-  });
+  // $(document).on('pointerdown', '#hov_elm', function () {
+  //   updateEventname('<p>pointerdown</p>')
+  // });
+  // $(document).on('pointerup', '#hov_elm', function () {
+  //   updateEventname('<p>pointerup</p>')
+  // });
   $(document).on('click', '#hov_elm', function () {
     updateEventname('<p>click</p>')
   });
