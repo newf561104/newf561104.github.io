@@ -1,0 +1,12 @@
+.hov_elm {
+  background-color: white;
+  width: 300px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.hov_elm:hover{
+  background-color : #FFAAAA;
+}
