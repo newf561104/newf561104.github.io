@@ -5,25 +5,25 @@ $(function() {
     el_eventname.append(eventname);
   };
 
-  $(document).on('touchstart', 'div', function () {
+  $(document).on('touchstart', '#hov_elm', function () {
     updateEventname('<p>touchstart</p>')
   });
-  $(document).on('touchend', 'div', function () {
+  $(document).on('touchend', '#hov_elm', function () {
     updateEventname('<p>touchend</p>')
   });
-  $(document).on('mousedown', 'div', function () {
+  $(document).on('mousedown', '#hov_elm', function () {
     updateEventname('<p>mousedown</p>')
   });
-  $(document).on('mouseup', 'div', function () {
+  $(document).on('mouseup', '#hov_elm', function () {
     updateEventname('<p>mouseup</p>')
   });
-  $(document).on('pointerdown', 'div', function () {
+  $(document).on('pointerdown', '#hov_elm', function () {
     updateEventname('<p>pointerdown</p>')
   });
-  $(document).on('pointerup', 'div', function () {
+  $(document).on('pointerup', '#hov_elm', function () {
     updateEventname('<p>pointerup</p>')
   });
-  $(document).on('click', 'div', function () {
+  $(document).on('click', '#hov_elm', function () {
     updateEventname('<p>click</p>')
   });
 });
