@@ -1,7 +1,7 @@
 $(function() {
   let container = $('#conteiner');
 
-  $(document).on('click', '#add_btn', function () {
+  $('#add_btn').on('click', function () {
     container.append('<div class="hov_elm">:hover sample</div>')
   });
 });
